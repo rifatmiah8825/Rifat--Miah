@@ -1,0 +1,103 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:  linear-gradient(320deg, #b043be, #6fc0ae, rgb(138, 97, 235));
+}
+
+.logo1{
+    height: 190px;
+    width: 190px;
+    float: left;
+}
+
+.logo2{
+    height: 200px;
+    width: 190px;
+    align-items: end;
+    justify-content: end;
+    margin-left: 700px;
+    margin-bottom: 0px;
+    margin-top: -25px;
+}
+
+.logo3{
+    height: 190px;
+    width: 190px;
+    float: right;
+}
+
+.con{
+    backdrop-filter:blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border-radius: 16px;
+    box-shadow: 0 10px 40px rgb(68, 68, 65);
+    color: #fff;
+    background-color: #fe8a71;
+    border: 1px solid rgba(255, 255, 255, 0.34);
+    flex-basis: 500px;
+    height: 745px;
+    width: 1150px;
+    padding: 20px 35px;
+    margin-left: 355px;
+    margin-top: 90px;
+}
+
+.im1{
+    margin-top: 190px;
+    margin-right: 55px;
+    float: right;
+    height: 400px;
+    width: 400px;
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+.im2{
+    margin-top: 155px;
+    margin-left:730px ;
+    height: 400px;
+    width: 400px;
+    border: 1px solid;
+    border-radius: 50%;
+    background-color: #63ace5;
+}
+
+.about1{
+    float: left;
+}
+
+.a1{
+    font-size: 59px;
+    text-align: center;
+    font-family: 'Lemon', serif;
+}
+
+.a2{
+    font-size: 53px;
+    margin-left: 150px;
+    font-family: 'Lemon', serif;
+}
+
+.p1{
+    font-size: 33px;
+    margin-left: 60px;
+    font-family: 'Lemon', serif;
+    letter-spacing: 2px;
+}
+
+.e1{
+    font-size: 30px;
+    margin-left: 60px;
+    font-family: 'Lemon', serif;
+}

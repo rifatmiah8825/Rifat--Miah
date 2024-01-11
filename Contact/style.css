@@ -1,0 +1,145 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:  linear-gradient(320deg, #eb92be, #63c9b4, #63c);
+}
+
+.logo1{
+    height: 190px;
+    width: 190px;
+    float: left;
+}
+
+.logo2{
+    height: 200px;
+    width: 190px;
+    align-items: end;
+    justify-content: end;
+    margin-left: 700px;
+    margin-bottom: 0px;
+    margin-top: -25px;
+}
+
+.logo3{
+    height: 190px;
+    width: 190px;
+    float: right;
+}
+
+.con{
+    backdrop-filter:blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border-radius: 16px;
+    box-shadow: 0 10px 40px rgba(35, 35, 0.1);
+    color: #fff;
+    background-color: yellowgreen;
+    border: 1px solid rgba(255, 255, 255, 0.34);
+    flex-basis: 500px;
+    height: 600px;
+    width: 700px;
+    padding: 20px 35px;
+    margin-left: 650px;
+    margin-top: 100px;
+}
+
+.a1{
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 70px;
+    margin-left: 800px;
+    font-size: 50px;
+    text-decoration: none;
+    background-color: tomato;
+    border: 1px solid;
+    border-radius: 25px;
+    padding: 0 5px 0;
+}
+
+.a1:hover{
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 70px;
+    margin-left: 800px;
+    font-size: 50px;
+    text-decoration: none;
+    background-color: aqua;
+    border: 1px solid;
+    border-radius: 25px;
+    padding: 0 5px 0;
+}
+
+.c1{
+    text-align: center;
+}
+
+.con1{
+    font-size: 30px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 25px;
+    margin-left: 130px;
+}
+
+.con1:hover{
+    background-color: aquamarine;
+}
+
+.con2{
+    font-size: 30px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 25px;
+    margin-left: 130px;
+}
+
+.con2:hover{
+    background-color: aquamarine;
+}
+
+.con3{
+    font-size: 30px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 25px;
+    margin-left: 130px;
+}
+
+.con3:hover{
+    background-color: aquamarine;
+}
+
+.con4{
+    border: 1px solid;
+    border-radius: 20px;
+    margin-left: 100px;
+}
+
+.con4:hover{
+    background-color: aquamarine;
+}
+
+.con5{
+    font-size: 30px;
+    padding: 5px 25px;
+    margin-left: 250px;
+    border: 1px solid;
+    border-radius: 25px;
+    background-color:#63c;
+    color: white;
+}
+
+.con5:hover{
+    background-color: #eb92be;
+    color: white;
+}

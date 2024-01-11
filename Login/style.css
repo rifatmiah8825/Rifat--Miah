@@ -1,0 +1,115 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.logo1{
+    height: 190px;
+    width: 190px;
+    float: left;
+}
+
+.logo2{
+    height: 200px;
+    width: 190px;
+    align-items: end;
+    justify-content: end;
+    margin-left: 700px;
+    margin-bottom: 0px;
+    margin-top: -25px;
+}
+
+.logo3{
+    height: 190px;
+    width: 190px;
+    float: right;
+}
+
+.form{
+    backdrop-filter:blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 0.1);
+    color: #fff;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background:  linear-gradient(320deg, #eb92be, #63c9b4, #63c);
+    border: 1px solid rgba(255, 255, 255, 0.34);
+    flex-basis: 400px;
+    height: 650px;
+    width: 850px;
+    padding: 20px 35px;
+    margin-left: 500px;
+}
+
+.login1{
+    text-align: center;
+}
+
+
+.l1{
+    font-size: 25px;
+    margin-left: 230px;
+}
+
+.l2{
+    font-size: 25px;
+    margin-left: 230px;
+}
+
+.f1{
+    font-size: 20px;
+    margin-left: 35px;
+    border: 1px solid white;
+    border-radius: 13px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.f2{
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 13px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.f3{
+    font-size: 20px;
+    margin-left: 350px;
+    background-color: skyblue;
+    border: 1px solid white;
+    border-radius: 13px;
+    padding:5px 25px 5px;
+}
+
+.p1{
+    font-size: 20px;
+    float: right;
+    border: 1px solid white;
+    border-radius: 13px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.c1{
+    font-size: 25px;
+    margin-left: 320px;
+}
+
+.a1{
+    font-size: 20px;
+    color: #fff;
+}
